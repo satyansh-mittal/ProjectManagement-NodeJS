@@ -72,22 +72,22 @@ To run this application locally, you need to have Node.js, Sequelize and MySQL i
 
 ### Admin Routes
 
-1. **POST /admin/signUp:** Create a new admin user.
-2. **GET /admin/login:** Admin user login.
-3. **GET /admin/users:** Retrieve all users (admin endpoint).
-4. **POST /admin/addUser:** Add a new user (requires authentication).
-5. **GET /admin/projects:** Retrieve all projects (admin endpoint).
-6. **POST /admin/addProject:** Add a new project (requires authentication).
-7. **POST /admin/assignProjects:** Assign projects to users (requires authentication).
-8. **GET /admin/progress:** Get project progress (requires authentication).
+1. POST `/admin/signUp`: Create a new admin user.
+2. GET `/admin/login`: Admin user login.
+3. GET `/admin/users`: Retrieve all users (admin endpoint).
+4. POST `/admin/addUser`: Add a new user (requires authentication).
+5. GET `/admin/projects`: Retrieve all projects (admin endpoint).
+6. POST `/admin/addProject`: Add a new project (requires authentication).
+7. POST `/admin/assignProjects`: Assign projects to users (requires authentication).
+8. GET `/admin/progress`: Get project progress (requires authentication).
 
 ### User Routes
 
-9. **GET /user/login:** User login.
-10. **GET /user/profile:** Retrieve user profile (requires authentication).
-11. **PATCH /user/edit:** Edit user profile (upload profile picture, requires authentication).
-12. **GET /user/Projects:** Retrieve projects for a user (requires authentication).
-13. **POST /user/addProgress:** Add progress to a project (requires authentication).
+9. GET `/user/login`: User login.
+10. GET `/user/profile`: Retrieve user profile (requires authentication).
+11. PATCH `/user/edit`: Edit user profile (upload profile picture, requires authentication).
+12. GET `/user/Projects`: Retrieve projects for a user (requires authentication).
+13. POST `/user/addProgress`: Add progress to a project (requires authentication).
 
 
 ## Contributing
